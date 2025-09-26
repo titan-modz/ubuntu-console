@@ -12,7 +12,7 @@ apt update -y
 apt install -y zip unzip npm docker.io
 
 # Unzip project (if needed)
-unzip -o ubuntu-cockpit-console.zip || true
+unzip -o ubuntu-cockpit-fixed.zip || true
 
 # Install Node packages
 npm install
